@@ -1,0 +1,7 @@
+http
+pymongo
+bs4
+mlextend
+http
+pandas
+requests
