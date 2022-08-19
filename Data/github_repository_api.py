@@ -42,7 +42,7 @@ for i in range(0,1000,20):
         res=json.loads(response.text)
         save_repo(res,count)
         link = response.headers.get('link', None)
-        page=1
+        page = 1
         sleep(30)
 
         if link is not None:
